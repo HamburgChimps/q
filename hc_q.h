@@ -1,12 +1,14 @@
-#ifndef HC_QUEUE_H
-#define HC_QUEUE
+#ifndef HC_Q_H
+#define HC_Q_H
 
-typedef struct hc_queue {
+typedef struct hc_q {
     void** data;
-} hc_queue;
+} hc_q;
 
-hc_queue* init_hc_queue()
-void hc_queue_enqueue(hc_queue* q, void* data);
-void hc_queue_dequeue(hc_queue* t);
+hc_q* init_hc_q();
+
+void hc_q_enqueue(hc_q* q, void* data);
+void hc_q_dequeue(hc_q* q);
+void destroy_hc_q(hc_q** q);
 
 #endif
