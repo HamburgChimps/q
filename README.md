@@ -1,6 +1,6 @@
 # The HamburgChimps Queue
 
-A rudimentary queue implementation in c. Not meant for actual use due to a myriad of reasons, at least not in its current form.
+A basic queue implementation in c.
 
 ## API
 
@@ -18,4 +18,4 @@ Dequeues an element from `q` and returns said element.
 
 ### `hc_q_destroy(hc_q** q) -> void`
 
-Frees the memory allocated by `hc_q_init`.
+Frees the memory allocated by `hc_q`.
