@@ -1,6 +1,6 @@
 # The HamburgChimps Queue
 
-A basic queue implementation in c.
+An implementation of a queue in c.
 
 ## API
 
